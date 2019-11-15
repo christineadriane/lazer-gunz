@@ -3,7 +3,7 @@ class Regneklynge:
 	# det er plass til i et rack
 	# @param noderPerRack max antall noder per rack
 	def __init__(self, noderPerRack):
-		pass
+		self._noderPerRack = noderPerRack
 
 	## Plasserer en node inn i et rack med ledig plass, eller i et nytt
 	# @param node referanse til noden som skal settes inn i datastrukturen
@@ -13,7 +13,7 @@ class Regneklynge:
 	## Beregner totalt antall prosessorer i hele regneklyngen
 	# @return totalt antall prosessorer
 	def antProsessorer(self):
-		pass
+		return
 
 	## Beregner antall noder i regneklyngen med minne over angitt grense
 	# @param paakrevdMinne hvor mye minne skal noder som telles med ha

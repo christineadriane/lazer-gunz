@@ -1,4 +1,5 @@
-dclass Datasenter:
+
+class Datasenter:
 
 	## Oppretter et datasenter
 	#
@@ -16,7 +17,7 @@ dclass Datasenter:
 	def skrivUtAlleRegneklynger(self):
 		pass
 
-	## Skriver ut informasjon om en spesifikk regeklynge
-	# @param navn navnet på regnekyngen
+	## Skriver ut informasjon om en spesifikk regneklynge
+	# @param navn navnet på regneklyngen
 	def skrivUtRegneklynge(self, navn):
 		pass
