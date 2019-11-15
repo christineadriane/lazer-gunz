@@ -17,3 +17,7 @@ class Node:
 	#  @return True hvis noden har minst så mye minne
 	def nokMinne(self, paakrevdMinne):
 		pass
+
+"""
+KOMMENTAR
+"""
