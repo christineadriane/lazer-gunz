@@ -23,6 +23,10 @@ class Rack:
 	# @return antall prosessorer
 	def antProsessorer(self):
 		antProsRack = 0
+		# her skal vi gå gjennom hvert objekt i lista. Programmet "vet" at lista er full
+		# av objekter av Node-klassen. Når vi da bruker "for e in lista", itererer gjennom
+		# selve elementet og ikke plasseringen (indeksen). Derfor bruker vi e.antProsessorer()
+		# etterpå. Da skjønner den at metoden hører til Node-klassen. 
 		for e in self._listNoder:
 			antallProsPerNode = e.antProsessorer()
 			antProsRack += antallProsPerNode
